@@ -1,0 +1,111 @@
+.artworks-table {
+  margin-bottom: 20px;
+}
+
+.title-cell {
+  font-weight: 500;
+}
+
+.artist-cell {
+  font-style: italic;
+}
+
+.inscriptions-cell {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.p-paginator {
+  margin-top: 20px;
+}
+
+.p-datatable .p-datatable-header {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-bottom: none;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  font-weight: 600;
+  color: #495057;
+}
+
+.p-datatable .p-datatable-tbody > tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.p-datatable .p-datatable-tbody > tr:hover {
+  background-color: #e9ecef;
+}
+
+.p-checkbox .p-checkbox-box {
+  border-radius: 4px;
+}
+
+.p-progress-spinner {
+  width: 50px;
+  height: 50px;
+}
+
+.p-message {
+  margin: 20px 0;
+}
+
+.selection-info {
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.selection-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.bulk-select-overlay {
+  min-width: 200px;
+}
+
+.bulk-select-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+}
+
+.bulk-select-input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.bulk-select-button {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 16px;
+  background: #f8f9fa;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.bulk-select-button:hover:not(:disabled) {
+  background: #e9ecef;
+}
+
+.bulk-select-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
